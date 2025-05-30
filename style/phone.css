@@ -1,0 +1,57 @@
+@media(max-width: 800px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    .header{
+    max-width: 780px;
+    padding: 20px 10px;
+    margin-left: 10px;
+  }
+    .header-container{
+    display: flex;
+    width: 740px;
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+  }
+    .nav-center ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+  }
+
+    .logo{
+        font-size: 18px
+    }
+    .cotact-right{
+        font-size: 18px;
+    }
+    .container-hero{
+        width: 700px;
+        padding: 20px 10px;
+        margin-left: 10px;
+    }
+    .hero{
+        width: 750px;
+    }
+    .services{
+        width: 750px;
+    }
+    .services-container{
+        width: 750px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-card{
+        width: 350px;
+    }
+    .steps-row{
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
