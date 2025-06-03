@@ -1,0 +1,118 @@
+@media screen and (max-width: 991px)  {
+  .container{
+    max-width: 990px;
+  }
+  .header{
+    max-width: 900px;
+    padding: 20px 10px;
+    margin: 10px auto;
+  }
+  .header-container {
+    display: flex; /* ← МІНДЕТТІ! */
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .nav-center ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .container-hero{
+    max-width: 900px;
+    padding: 20px 10px;
+    margin: 10px auto;
+  }
+
+
+  .hero {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 40px 10px;
+    gap: 60px;
+  }
+
+  .hero_title {
+    font-size: 30px;
+    margin-left: 0;
+  }
+
+  .hero-text {
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 10px;
+
+  }
+
+  .hero-form {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .about-section{
+    padding: 20px 10px;
+  }
+  .about-image{
+    flex: 1;
+    width: 800px;
+    height: 800px;
+    margin-top: 110px;
+  }
+  .about-image img{
+    width: 800px;
+    height: 500px;
+  }
+  .services-container {
+    justify-content: center;
+    gap: 20px;
+  }
+  .services-section{
+    padding: 20px 10px;
+    text-align: left;
+    max-width: 900px;
+  }
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    gap: 20px;
+  }
+  .services-section h2 {
+    text-align: center;
+    margin-left: 30px;
+  }
+  .service-card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .gallery-slider {
+    width: 100%;
+  }
+
+  .steps-row {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .step {
+    flex: 1 1 45%;
+  }
+
+}
+  

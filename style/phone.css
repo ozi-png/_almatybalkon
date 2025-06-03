@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+  .header-container,
+  .design-content,
+  .about-container,
+  .services-container,
+  .steps-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .hero_title,
+  .hero-text {
+    margin-left: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hero-form {
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-text h2,
+  .services-section h2,
+  .gallery-section h2,
+  .steps-section h2 {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-text p,
+  .service-card p,
+  .steps-section p {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .service-card {
+    max-width: 100%;
+  }
+
+  .image-block {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .image-block img {
+    width: 100%;
+    height: auto;
+  }
+
+  .design-section {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .steps-section p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .step h3 {
+    font-size: 40px;
+  }
+
+  .step h3 span {
+    font-size: 24px;
+  }
+
+  .step h4 {
+    font-size: 22px;
+  }
+
+  .step p {
+    font-size: 16px;
+  }
+}
